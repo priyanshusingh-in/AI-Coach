@@ -16,7 +16,73 @@ AI-Coach is an intelligent health and fitness assistant that leverages advanced 
 
 ## 🚧 Development Status
 
-**⚠️ This project is currently under active development** and is not yet ready for production use. We're following a phased development approach as outlined in our [Development Plan](./ai_coach_development_plan.md).
+**⚠️ This project is currently under active development** and is not yet ready for production use. We're following a phased development approach as outlined in our [Development Plan](./docs/ai_coach_development_plan.md).
+
+## 🗺️ Development Plan
+
+The AI-Coach project follows a structured, multi-phase development plan to ensure systematic progress and high-quality results. Below is an overview of the main phases:
+
+### Phase 1: Project Setup & Architecture
+
+- Establish monorepo structure for backend, mobile, shared types, docs, and scripts
+- Set up Node.js/Express backend with TypeScript and MongoDB
+- Implement JWT authentication and basic user/session management
+- Design initial database schemas for users, coaching sessions, health data, and workout plans
+
+### Phase 2: AI Integration Layer
+
+- Integrate OpenAI for AI-powered coaching
+- Manage conversation context and token usage
+- Implement vector search in MongoDB Atlas for context retrieval
+- Build a flexible tool integration system for fitness/nutrition APIs
+
+### Phase 3: Backend API Development
+
+- Develop RESTful APIs for coaching, health data, workouts, and user profiles
+- Implement validation, authentication, and response formatting
+- Enable health data analysis and personalized recommendations
+
+### Phase 4: Flutter Mobile App
+
+- Set up Flutter project with organized folder structure and state management
+- Develop core screens: fitness chat, health dashboard, workout/nutrition tracking, settings, and profile
+- Implement real-time features: live coaching, workout tracking, voice commands, and notifications
+
+### Phase 5: Advanced AI Features
+
+- Build advanced fitness intelligence: workout analysis, recommendation ranking, and progress tracking
+- Add multi-modal analysis: exercise form (video/photo), food recognition, and progress photos
+- Implement motivation features: reminders, encouragement, and goal tracking
+
+### Phase 6: External Integrations
+
+- Integrate with health platforms (Apple HealthKit, Google Fit, Fitbit, etc.)
+- Connect to workout/nutrition apps and APIs
+- Enable calendar, sleep, and wellness tracking integrations
+
+### Phase 7: Testing & Quality Assurance
+
+- Create comprehensive test suites for backend and mobile
+- Test AI response quality, vector search accuracy, and performance
+- Ensure privacy, security, and data protection
+
+### Phase 8: Performance Optimization
+
+- Optimize backend and mobile app performance
+- Implement caching, compression, and efficient state management
+- Enhance AI pipeline efficiency and cost-effectiveness
+
+### Phase 9: Security & Privacy
+
+- Enforce data encryption, input validation, and API security
+- Provide user privacy controls, consent management, and data deletion
+
+### Phase 10: Deployment & DevOps
+
+- Set up Docker, CI/CD pipelines, and production infrastructure
+- Prepare mobile app for app store distribution and monitoring
+
+This phased approach ensures the project is built with scalability, security, and user experience in mind, delivering a robust AI-powered health and fitness coaching platform.
 
 ### Current Phase
 
@@ -37,7 +103,7 @@ We welcome contributions from the community! Whether you're interested in:
 - 📚 Documentation
 - 🧪 Testing
 
-Please see our [Contributing Guidelines](#-contributing) below and check out our [Development Plan](./ai_coach_development_plan.md) for detailed roadmap information.
+Please see our [Contributing Guidelines](#-contributing) below and check out our [Development Plan](./docs/ai_coach_development_plan.md) for detailed roadmap information.
 
 ### 🎯 Key Features
 
@@ -320,12 +386,12 @@ flutter build ios --release    # iOS
 - Maintain code documentation
 - Use conventional commit messages
 - Follow Flutter style guidelines
-- Check our [Development Plan](./ai_coach_development_plan.md) for current priorities
+- Check our [Development Plan](./docs/ai_coach_development_plan.md) for current priorities
 
 ## 📚 Documentation
 
 - **[API Documentation](./docs/README.md)** - Complete API reference
-- **[Development Plan](./ai_coach_development_plan.md)** - Detailed development roadmap
+- **[Development Plan](./docs/ai_coach_development_plan.md)** - Detailed development roadmap
 - **[Architecture Guide](./docs/architecture.md)** - System design overview
 - **[Deployment Guide](./docs/deployment.md)** - Production deployment instructions
 
