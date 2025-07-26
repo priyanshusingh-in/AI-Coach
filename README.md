@@ -16,7 +16,7 @@ AI-Coach is an intelligent health and fitness assistant that leverages advanced 
 
 ## 🚧 Development Status
 
-**⚠️ This project is currently under active development** and is not yet ready for production use. We're following a phased development approach as outlined in our [Development Plan](./docs/ai_coach_development_plan.md).
+**⚠️ This project is currently under active development** and is not yet ready for production use. We're following a phased development approach as outlined in our Development Plan.
 
 ## 🗺️ Development Plan
 
@@ -103,7 +103,7 @@ We welcome contributions from the community! Whether you're interested in:
 - 📚 Documentation
 - 🧪 Testing
 
-Please see our [Contributing Guidelines](#-contributing) below and check out our [Development Plan](./docs/ai_coach_development_plan.md) for detailed roadmap information.
+Please see our [Contributing Guidelines](#-contributing) below.
 
 ### 🎯 Key Features
 
@@ -386,12 +386,10 @@ flutter build ios --release    # iOS
 - Maintain code documentation
 - Use conventional commit messages
 - Follow Flutter style guidelines
-- Check our [Development Plan](./docs/ai_coach_development_plan.md) for current priorities
 
 ## 📚 Documentation
 
 - **[API Documentation](./docs/README.md)** - Complete API reference
-- **[Development Plan](./docs/ai_coach_development_plan.md)** - Detailed development roadmap
 - **[Architecture Guide](./docs/architecture.md)** - System design overview
 - **[Deployment Guide](./docs/deployment.md)** - Production deployment instructions
 
